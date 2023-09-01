@@ -4526,7 +4526,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "圣赫勒拿岛",
+				"name": "圣赫勒拿",
 				"full_name": "圣赫勒拿岛（英国）",
 				"iso_a2": "SH",
 				"iso_a3": "SHN",
@@ -19074,7 +19074,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "库拉索岛",
+				"name": "库拉索",
 				"full_name": "库拉索岛（荷兰）",
 				"iso_a2": "CW",
 				"iso_a3": "CUW",
@@ -30928,8 +30928,8 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "瓦利斯群岛和富图纳群岛",
-				"full_name": "瓦利斯群岛和富图纳群岛",
+				"name": "瓦利斯和富图纳群岛",
+				"full_name": "瓦利斯和富图纳群岛",
 				"iso_a2": "WF",
 				"iso_a3": "WLF",
 				"iso_n3": "876"
@@ -30961,7 +30961,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "法属圣马丁岛",
+				"name": "法属圣马丁",
 				"full_name": "法属圣马丁岛",
 				"iso_a2": "MF",
 				"iso_a3": "MAF",
@@ -31027,8 +31027,8 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "法属玻里尼西亚",
-				"full_name": "法属玻里尼西亚",
+				"name": "法属波利尼西亚",
+				"full_name": "法属波利尼西亚",
 				"iso_a2": "PF",
 				"iso_a3": "PYF",
 				"iso_n3": "258"
@@ -48300,7 +48300,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "荷属圣马丁岛",
+				"name": "荷属圣马丁",
 				"full_name": "荷属圣马丁岛",
 				"iso_a2": "SX",
 				"iso_a3": "SXM",
