@@ -1,0 +1,779 @@
+/*
+===================
+鍒濆鍖�
+===================
+*/
+html, body,
+div, dl, dt, dd, ul, p, th, td,
+h1, h2, h3, h4, h5, h6,
+pre, code, form,
+fieldset, legend {
+    margin: 0;
+    padding: 0;
+}
+
+cite,
+em,
+strong,
+th {
+    font-style: normal;
+}
+
+td,
+th,
+div {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+form {
+    display: inline;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th {
+    text-align: left;
+    font-weight: 100;
+}
+
+ol li {
+    list-style: decimal outside;
+}
+
+ol {
+    padding: 0 0 0 18px;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+}
+
+html {
+    -webkit-text-size-adjust: none;
+    overflow-y: scroll;
+}
+
+/*
+===================
+html5鏍囩
+===================
+*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block;
+}
+
+/*
+===================
+娓呴櫎娴姩銆愯鍕夸慨鏀广€�
+>>	cc	浣滅敤浜庣埗妯″瀷
+>>	c	浣滅敤浜庢诞鍔ㄦā鍨嬪悗锛岀埗妯″瀷鍖哄煙閲�
+===================
+*/
+.cc {
+    zoom: 1;
+}
+
+.cc:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.c {
+    clear: both;
+    height: 0;
+    font: 0/0 Arial;
+    overflow: hidden;
+    width: 0;
+}
+
+/*
+===================
+鍩虹鏍峰紡
+>>	b		鍔犵矖
+>>	u		涓嬪垝绾�
+>>	i		鏂滀綋
+>>	w		鏂囨湰涓嶆崲琛�
+>>	tal		鏂囨湰闈犲乏鏄剧ず
+>>	tac		鏂囨湰灞呬腑鏄剧ず
+>>	tar		鏂囨湰闈犲彸鏄剧ず
+>>	fl		宸︽诞鍔�
+>>	fr		鍙虫诞鍔�
+>>	pr		鐩稿瀹氫綅
+>>	cp		榧犳爣鐐瑰嚮鎵嬪娍
+>>	vt		琛ㄦ牸鍐呭闈犱笂鏄剧ず
+===================
+*/
+.b {
+    font-weight: 700 !important;
+}
+
+.u {
+    text-decoration: underline !important;
+}
+
+.i {
+    font-style: italic !important;
+}
+
+.w {
+    white-space: nowrap;
+}
+
+.tal {
+    text-align: left !important;
+}
+
+.tac {
+    text-align: center !important;
+}
+
+.tar {
+    padding-left: 20px !important;
+}
+
+.fl {
+    float: left !important;
+}
+
+.fr {
+    float: right !important;
+}
+
+.pr {
+    position: relative;
+}
+
+.cp {
+    cursor: pointer;
+}
+
+.vt {
+    vertical-align: top;
+}
+
+.dn {
+    display: none;
+}
+
+/*
+===================
+瀛椾綋
+>>	f10		灏忓瓧浣�
+>>	f12		姝ｅ父瀛�
+>>	f14		澶у瓧
+>>	f16		鏇村ぇ
+>>	f24		鏍囬绫�
+>>	fn		鏂囨湰鍘荤矖
+===================
+*/
+.f10 {
+    font-size: 10px;
+}
+
+.f12 {
+    font-size: 12px !important;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+.f24 {
+    font-size: 24px;
+    font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.fn {
+    font-weight: normal !important;
+}
+
+.s1 {
+    color: #ff0000;
+}
+
+/*
+===================
+鍏ㄥ眬
+===================
+*/
+body {
+    font: 12px/1.5 "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "寰蒋闆呴粦", Arial, sans-serif;
+    color: #333;
+    background-image: url(../image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+a:link {
+    color: #246EA5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #762e9c;
+}
+
+/*
+===================
+鍖呰９
+===================
+*/
+.wrap {
+    margin: 50px auto 0;
+    width: 750px;
+    background: #fff;
+}
+
+/*
+===================
+澶撮儴
+===================
+*/
+.header {
+    height: 80px;
+    position: relative;
+    color: #fff;
+    background: #246fa6 url(../image/header.png) 0 0 repeat-x;
+}
+
+/*
+===================
+涓讳綋
+===================
+*/
+.main {
+    padding-top: 35px;
+}
+
+/*
+===================
+搴曢儴
+===================
+*/
+.footer {
+    text-align: center;
+    padding: 15px 0 50px;
+    color: #999999;
+}
+
+.footer a {
+    color: #999;
+    text-decoration: none;
+}
+
+.bottom {
+    padding: 0 0 25px;
+}
+
+/*
+===================
+鍗忚
+===================
+*/
+.pact {
+    box-shadow: 5px 5px 5px #f7f7f7 inset;
+    border: 1px solid #bdbcbc;
+    width: 670px;
+    height: 350px;
+    padding: 10px;
+    overflow: hidden;
+    display: block;
+    overflow-y: scroll;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 22px;
+    outline: none;
+}
+
+pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+/*
+===================
+鐗堟湰鍙�
+===================
+*/
+.version {
+    float: right;
+    margin: 50px 25px 0 0;
+}
+
+/*
+===================
+LOGO
+===================
+*/
+.logo {
+    float: left;
+    width: 230px;
+    height: 80px;
+    background: url(../image/logo.png) no-repeat center;
+    overflow: hidden;
+    text-indent: -2000em;
+}
+
+/*
+===================
+瀹夎绫诲瀷鏂囨
+===================
+*/
+.icon_install,
+.icon_update {
+    font-size: 20px;
+    float: left;
+    margin-top: 35px;
+}
+
+/*
+===================
+鎸夐挳
+===================
+*/
+.btn,
+.btn_old {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background: url(../image/btn.png) no-repeat;
+    font: bold 14px/30px Arial, "Microsoft Yahei", Simsun;
+    text-decoration: none;
+    color: #fff !important;
+    margin: 0 5px;
+    border: 0 none;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.btn:hover {
+    background-position: 0 -30px;
+    text-decoration: none;
+}
+
+a.btn:visited {
+    color: #ffffff;
+}
+
+.btn_old,
+.btn_old:hover {
+    background-position: 0 -60px;
+    color: #999 !important;
+    cursor: default;
+    text-decoration: none;
+}
+
+a.btn_old:visited {
+    color: #999 !important;
+}
+
+/*
+===================
+姝ラ
+===================
+*/
+.step,
+.step li em,
+.step li {
+    background: url(../image/step.png) repeat-x;
+}
+
+.step {
+    border-bottom: 1px solid #dce1e5;
+    height: 60px;
+    background-color: #fff;
+}
+
+.step li {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    width: 33%;
+    text-align: center;
+    font-size: 14px;
+    color: #6f7885;
+    font-weight: 700;
+}
+
+.step li em {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    display: inline-block;
+    background-position: 0 -70px;
+    font-size: 20px;
+    color: #fff;
+    font-family: Microsoft Yahei;
+    margin-right: 10px;
+    vertical-align: 0;
+
+}
+
+.step li.current {
+    background-position: right -106px;
+    background-repeat: no-repeat;
+    color: #246ea5;
+}
+
+.step li.current em {
+    background-position: -35px -70px;
+}
+
+.step li.on {
+    background-position: 0 -176px;
+}
+
+.step li.on em {
+    background-position: -70px -70px;
+}
+
+/*
+===================
+鏈嶅姟鍣ㄦ娴�/淇℃伅杈撳叆
+===================
+*/
+.server {
+    padding: 20px 20px 10px 65px;
+}
+
+.server table {
+    margin-bottom: 20px;
+}
+
+.server td {
+    padding: 3px 5px;
+}
+
+.server .td1 {
+    color: #417b9d;
+    font-weight: 700;
+}
+
+.server .input {
+    border: 1px solid;
+    border-color: #e3e9ef;
+    padding: 3px;
+    width: 200px;
+}
+
+.server .radio {
+    display: inline-block;
+    width: 70px;
+    cursor: pointer;
+}
+
+.server .input:hover,
+.server .input:focus {
+    border: 1px solid #0e85d5;
+    outline: none;
+}
+
+.gray {
+    color: #bbb;
+}
+
+/*
+===================
+姝ｇ‘閿欒
+===================
+*/
+.icon_check,
+.icon_error {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 16px;
+    text-indent: -2000em;
+    overflow: hidden;
+    background: url(../image/icon.png) no-repeat;
+    margin-right: 5px;
+}
+
+.icon_error {
+    background-position: 0 -23px;
+}
+
+/*
+===================
+鏁版嵁琛ㄥ啓鍏�
+===================
+*/
+.install {
+    box-shadow: 5px 5px 5px #f7f7f7 inset;
+    border: 1px solid #bdbcbc;
+    width: 670px;
+    height: 350px;
+    padding: 10px;
+    overflow: hidden;
+    display: block;
+    overflow-y: scroll;
+    margin: 25px auto;
+    font-size: 12px;
+    margin-bottom: 22px;
+    outline: none;
+}
+
+.install ul {
+    line-height: 1.8;
+}
+
+/*
+===================
+鎴愬姛鎻愮ず
+===================
+*/
+.success_tip {
+    /*border:1px solid #e0e9f0;*/
+    background: #fff url(../image/complete.png) 210px center no-repeat;
+    padding: 50px 80px 50px 300px;
+    line-height: 2;
+}
+
+.success_tip a, .s4 {
+    color: #0166a5;
+    text-decoration: none;
+}
+
+.success_tip a:hover {
+    text-decoration: underline;
+}
+
+.error_tip {
+    background: url(../image/ignore.png) 130px 45px no-repeat;
+    padding: 50px 80px 60px 230px;
+}
+
+/*founder login*/
+.login {
+    border: 1px solid #e0e9f0;
+    background: #fff;
+    margin: 30px 120px 130px;
+}
+
+/*
+===================
+鎿嶄綔鎻愮ず
+>>	tips			鏅€�
+>>	tips_error		閿欒
+>>	tips_success	姝ｇ‘
+>>	tips_loading	鍔犺浇涓�
+浣跨敤鏂规硶
+	鍙嫭绔嬫牱寮忎娇鐢紝浜﹀彲涓巘ips缁勮锛屼緥锛�
+	<div class="tips"><span class="tips_error">閿欒鍐呭</span></div>
+
+	鍙湪澶栧嚭鍖呰９ tips_block 瀵归敊璇彁绀鸿繘琛屽潡绾ф晥鏋滃睍绀�
+===================
+*/
+.tips,
+.tips_block span {
+    line-height: 25px;
+    padding: 0 6px;
+}
+
+.tips {
+    border: 1px solid #faebd2;
+    background: #ffffe9;
+    color: #666;
+}
+
+.tips_error,
+.tips_success {
+    color: #cc3333;
+    display: inline-block;
+    line-height: 18px;
+}
+
+.tips_success {
+    color: #008800;
+}
+
+.tips_loading {
+    color: #333333;
+    display: inline-block;
+    line-height: 20px;
+}
+
+/*
+===================
+loading
+===================
+*/
+.loading {
+    border-radius: 16px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: fixed;
+    _position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -15px;
+}
+
+.loading span {
+    background: url(../image/install_loading.gif) 0 center no-repeat;
+    padding-left: 24px;
+}
+
+/*
+===================
+鍗囩骇绫诲瀷閫夋嫨
+===================
+*/
+.updata_type {
+    padding: 20px 30px 40px;
+}
+
+.updata_type .hd {
+    font-size: 16px;
+}
+
+/*鍒囨崲閫夋嫨*/
+.updata_type .tab {
+    padding-top: 10px;
+}
+
+.updata_type .tab li {
+    float: left;
+    width: 50%;
+    display: inline;
+}
+
+.updata_type .tab li a {
+    display: block;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    background: #fff url(../image/tab.png);
+    color: #246EA5;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.updata_type .tab li a.fen {
+    line-height: 50px;
+    border-right: 0;
+}
+
+.updata_type .tab li a span {
+    display: block;
+    font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    margin-top: -12px;
+    font-weight: 100;
+}
+
+.updata_type .tab li.current a {
+    background: #fdfdfd;
+    color: #6F7885;
+    border-bottom: 1px solid #fdfdfd;
+}
+
+.updata_type .tab_cont {
+    border: 1px solid #ccc;
+    border-top: 0 none;
+    padding: 30px;
+    background: #fdfdfd;
+    box-shadow: 1px 1px 1px #fff inset, -1px -1px 1px #fff inset;
+}
+
+.updata_type .tab_cont h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.updata_type .tab_cont h3 span {
+    font-size: 12px;
+    font-weight: 100;
+    color: #666;
+}
+
+.updata_type .tab_cont h4 {
+    font-size: 14px;
+}
+
+.updata_type .tab_cont h4 span {
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 100;
+    color: #f60;
+}
+
+.updata_type .tab_cont ol li {
+    margin-bottom: 10px;
+}
+
+.updata_type .tab_cont div {
+    color: #666;
+    padding-left: 20px;
+}
+
+.updata_type .tab_cont ul li {
+    margin: 0;
+    padding-left: 50px;
+    list-style: none;
+    color: #666;
+}
+
+/*绔嬪嵆鍗囩骇*/
+.once_updata {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.once_updata button {
+    font-size: 32px;
+    font-weight: 700;
+    background: #186196 url(../image/header.png) repeat-x;
+    color: #fff;
+    padding: 30px 80px;
+    font-weight: 100;
+    font-family: "Microsoft Yahei";
+    border: 1px solid #186196;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
